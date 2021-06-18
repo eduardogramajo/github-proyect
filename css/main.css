@@ -1,0 +1,523 @@
+/*_______Modificaciones Bootstrap_______*/
+.carousel{
+      background-color: rgb(243, 11, 11);
+      width: 50% !important;
+      margin: 0 auto;
+      border-radius: 45px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+}
+.carousel-item img{
+      width: 100%!important;
+      height: auto  !important;
+      margin: 0 auto !important;
+}
+
+.nav{
+     font-size: 3rem;
+     text-shadow: 1px 2px 4px black;
+     padding-left: 22%;
+     letter-spacing: 5%;
+     
+}
+
+.nav:hover{
+      background-color: rgb(235, 67, 67);
+      border-radius: 20px;
+}
+.nav-item>a:hover{
+      color:white
+}
+
+.dropdown-menu{
+      font-size: 20px;
+}
+
+.dropdown-item{
+      color: red;
+}
+/*___________________________________*/
+
+.fondo{
+      background-image: url(../img/imgSitio/banner_1.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+}
+
+/*generales*/    
+a:hover{
+       color: rgb(93, 215, 236);
+}
+a:active{
+      color: red;
+}
+
+h1{
+      font-size: 5.5rem;
+      font-family: 'Girassol', cursive;
+      text-align: center;
+      letter-spacing: 8px;
+      padding-top: 50px;
+}
+
+h1 {
+      animation-duration: 5s;
+      animation-name: tith1;
+  }
+
+  @keyframes tith1 {
+       0% {
+       opacity: 0;
+      }
+      100% {
+       opacity: 1;
+     }
+  }
+
+h2{
+      color:#0a25f5;
+      font-family: 'Girassol', cursive;
+      font-weight: bolder;
+      font-size: 3rem;
+      text-align: center;
+      text-shadow: 2px 2px 2px black
+}
+
+h3{
+      color: #e1f1e9;
+      font-size: 20px;
+      word-spacing: 12px;
+      letter-spacing: 3px;
+      font-family: 'Girassol', cursive;
+      text-shadow: 2px 2px 2px black
+}
+
+h5{
+      font-size: 30px;
+      color: white;
+      text-shadow: 2px 2px 2px black;
+}
+
+
+
+li{
+      font-family: 'Girassol', cursive;
+      font-weight: bolder;
+      list-style-position: outside;
+}
+
+a{
+      text-decoration: none; 
+}
+.cabecera{
+      display: inline-block;
+      padding-left: 545px;
+      padding-bottom: 287px;
+      height: 220px;
+      border-bottom: 4px solid red;
+}
+
+.logoPrincipal{
+      padding-right: 350px;
+}
+
+.titPrincipal{
+      color: #fff;
+     text-shadow:
+    
+    0 0 7px black,
+    0 0 8px black,
+    0 0 21px black,
+    
+    0 0 42px red,
+    0 0 82px red,
+    0 0 92px red,
+    0 0 102px red,
+    0 0 151px red;
+}
+.subTitPrincipal{
+      text-align: center;
+      font-size: 35px;
+      color: #fff;
+     text-shadow:
+        0 0 7px black,
+       0 0 10px black,
+       0 0 21px black,    
+       0 0 42px red,
+       0 0 82px red,
+       0 0 92px red,
+       0 0 102px red,
+       0 0 151px red;      
+      font-family: 'Girassol', cursive;
+      margin-bottom: 50px;
+}
+
+main{
+      background-image: url(../img/imgSitio/circ.png);
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position-x: 50%;
+      background-position-y: 50%; 
+}
+
+.botonComprar{
+      color: white;
+      border-radius: 10px;
+      background-color: red;
+      padding: 0px 15px 0px 15px;
+      margin-bottom: 15px;
+}
+
+.whatsapp{
+      position: -webkit-sticky;
+      position: sticky;
+      display: flex;
+      flex-direction: row-reverse;
+      margin-right: 60px;
+      top: 300px;
+}
+
+
+/*-----grid areas-----*/
+
+.contenedor{
+     display: grid;
+     grid-template-columns: 100%;
+     grid-template-rows: repeat(3, 100px);
+     grid-gap: 0px;
+     justify-content: center;
+     align-items: center;
+}
+
+.header{
+      grid-area: header;
+}
+.main{
+      grid-area: main;
+}
+.footer{
+      grid-area: footer;
+      background-image:linear-gradient(to right,rgb(245, 7, 7), rgb(235, 204, 204)); 
+      border-radius: 10px;    
+      
+}
+header{
+      width: 100%;
+ }
+ 
+.header{
+      max-width: auto;
+      margin: 0 auto;
+      position: relative;
+}
+
+.contenedor{
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: auto;
+      grid-template-areas: "header header header""main main main""footer footer footer";
+}
+
+.main{
+      grid-area: main;   
+      background-image: url(../img/imgSitio/circ.png);
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position-x: 50%;
+      background-position-y: 50%; 
+ }
+
+ .figuras{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 1100px;
+      min-height: 1500px;
+      padding: 0px 50px 100px 400px;
+ }
+
+ .libros{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 1500px;
+      min-height: auto;
+      padding: 50px 50px 100px 170px;
+ }
+ .libros>img{
+      transform: rotate(-15deg);
+ }
+
+ h3,h4{
+      padding-top: 40px;
+ }
+ 
+ footer>section{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-top: 50px;
+ }
+
+/*_______INDEX________*/
+.redes{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: auto;
+      justify-content:flex-end;
+      padding-left: 800px;
+      border-bottom: 4px solid red;
+}
+
+/*______FIGURAS______*/
+
+.titFig{
+      color: rgb(24, 2, 2);
+      text-align: center;
+      font-weight: bolder;
+      font-family: 'Girassol', cursive;
+      font-size: 1.8rem;
+      text-shadow: 2px 2px #558ABB;
+}
+
+.figureBorde{
+      border: 2px solid black;
+      box-shadow: 10px 5px 5px grey;
+}
+
+.figureBorde{
+      transition: all 2s;
+}
+.figureBorde:hover{
+      width: 350px;
+      height: 500px;
+}
+
+.indexLibros{
+      border: 1px solid black;
+      box-shadow: 10px 5px 5px grey;
+}
+.indexLibros{
+     transition: all 2s;
+}
+.indexLibros:hover{
+      width: 250px;
+      height: 400px;
+}
+
+
+.volver{
+      font-family: 'Girassol', cursive;
+      color: white;
+      font-size: 25px;
+      background-color: teal;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 3px 3px 15px rgb(233, 49, 65);
+      margin-top: 80px;
+      margin-bottom: 50px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     margin-left: 350px;   
+    
+}
+
+/*_______SECCION LIBROS_______*/
+.titLibros{
+      font-size: 55px;
+      text-decoration: underline;
+      color: rgb(235, 67, 67);
+      text-shadow: 4px 3px 2px black;
+      padding-top: 100px;
+}
+
+
+      
+/*________QUIENES SOMOS_________*/
+
+.pagSomos{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-around;
+      grid-area: "main main";
+      max-width: 1800px;
+      min-height: 350px ;
+}
+
+.quienesSomos{
+      width: 150%;
+      margin: 0px 0px 200px 100px;
+      transform: rotateY(15deg);
+      text-transform: inherit;
+      text-align: left;
+      font-size: 1.5rem;
+      font-family: 'Girassol', cursive;
+      color: #050c87;
+      word-spacing: 3px;
+}
+.quienesSomos{
+      transition: all 2s;
+}
+.quienesSomos:hover{
+      border-radius: 15px;
+      box-shadow: 15px 5px 5px rgb(233, 49, 65);
+}
+
+.titCarousel{
+      font-size: 20px;
+      color: red;
+      text-shadow: 2px 2px 2px black;
+} 
+
+.reseña{
+      display: block;
+      margin: 0 auto;
+      box-shadow: 2px 2px 2px 2px red;
+      
+}
+.reseñaParr{
+      font-size: 20px;
+      font-weight: bolder;
+      text-align: center;
+
+}
+
+
+
+/*_______CONTACTO________*/
+
+.somos{
+      font-size: 50px;
+}
+
+#imgSet{
+      background-image: url(../img/imgSitio/edAl.png);
+      margin: 0px 0px 100px 0px;
+      background-repeat: no-repeat;
+      background-position:right;
+      background-size: 550px;    
+      text-align: center;
+      font-size: 1.3rem;
+}
+
+.espacioUno{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: space-between;
+      padding-left: 41%;
+      padding-bottom: 1%;
+}
+.espacioDos{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: space-between;
+      padding-left: 42%;
+}
+.espacioTres{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: space-between;
+      padding-left: 42%;
+      padding-top: 1%;
+}
+.espacioCuatro{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content:center;
+      padding-top: 1%;
+}
+.espacioCinco{
+      padding-top: 1%;
+      padding-left: 26px;
+}
+.formProp{
+      padding: auto;
+      border-radius: 15px;
+      box-shadow: 0 0 .2rem #fff,
+      0 0 .2rem #fff,
+      0 0 2rem #bc13fe,
+      0 0 0.8rem #bc13fe,
+      0 0 2.8rem #bc13fe,
+      inset 0 0 1.3rem #bc13fe;
+      margin: 100px 0px 300px 0px;
+      background-color: #e9f2f5;
+      font-family: 'Girassol', cursive;
+      font-weight: bolder;
+      text-shadow: 2px 2px 2px rgb(241, 157, 157)
+}
+
+.ubicacion{
+      display: block;
+      margin: 0 auto;
+      width: 400px;
+}
+
+iframe{
+      padding-left: 20px;
+      box-shadow: 2px 2px 2px 4px black;
+}
+
+.ubicacionParr{
+      color: red;
+}
+
+.footer{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between; 
+
+}
+
+.footerLogo{
+      width: 400px;
+      margin-left: 70px;
+      padding-left: 100px;
+}
+.footerLogoDos{
+      margin-top: 20px;
+      margin-left: 60px;
+}
+
+.footerSecciones{
+      padding-left: 170px;
+      margin-right: 100px;
+}
+
+
+.footerTit{
+      font-size: 40px;
+}
+.footerEnlaces{
+      list-style: none;
+}
+
+.footerRedes{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      padding-left:50px ;
+      
+      
+}
+
+
+  
+
+
+
+
+
+
+
+  
