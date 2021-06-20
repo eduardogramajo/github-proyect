@@ -527,7 +527,13 @@ iframe{
       h5{
             font-size: 2rem;
       }
-      
+      .titFig{
+            display: block;
+            padding-right: 100px;
+      }
+      .libros{
+            padding-right: 160px;
+      }
 }
 
 
