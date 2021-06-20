@@ -511,6 +511,25 @@ iframe{
       
 }
 
+@media only screen and (max-width: 768px) {
+      .imgLogo{
+            display: block;
+            width: 350px;
+            padding-right: 100px;
+      }
+	h1{
+            font-size: 3rem;
+      }
+
+      h2{
+            font-size: 1.5rem;
+      }
+      h5{
+            font-size: 2rem;
+      }
+      
+}
+
 
   
 
