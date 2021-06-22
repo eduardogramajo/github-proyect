@@ -324,7 +324,6 @@ header{
      flex-direction: row;
      justify-content: space-evenly;
      margin-left: 350px;   
-    
 }
 
 /*_______SECCION LIBROS_______*/
@@ -378,19 +377,17 @@ header{
       display: block;
       margin: 0 auto;
       box-shadow: 2px 2px 2px 2px red;
-      
 }
+
 .reseñaParr{
       font-size: 20px;
       font-weight: bolder;
       text-align: center;
-
 }
 
 
 
 /*_______CONTACTO________*/
-
 .somos{
       font-size: 50px;
 }
