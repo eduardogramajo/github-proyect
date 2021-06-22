@@ -144,13 +144,9 @@ main{
     @include flexDos;
     max-width: 1500px;
     min-height: auto;
-    padding: 50px 50px 100px 170px;
 }
-.libros{
-    img{
-    transform: rotate(-15deg);
-}
-}
+
+
 
 /*______FIGURAS______*/
 
@@ -177,6 +173,11 @@ main{
 }
 
 .indexLibros{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30%;
+}
+.indexLibros{
     border: 1px solid $colorNegro;
     box-shadow: 10px 5px 5px grey;
 }
@@ -201,8 +202,6 @@ main{
     margin-top: 80px;
     margin-bottom: 50px;
     @include boton;
-      
-  
 }
 
 /*_______SECCION LIBROS_______*/
@@ -388,6 +387,7 @@ iframe{
         text-align: center;
         font-size: 1rem;
     }
+    
     .footerLogo{
         margin-left: 0px;
         padding-left: 0px;
@@ -441,6 +441,10 @@ iframe{
         padding-left: 20%;
     }
 
+    .indexLibros{
+        justify-content: flex-start;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -467,6 +471,14 @@ iframe{
           padding-right: 160px;
     }
 
+    .libros{
+        flex-direction: column;
+    }
+
+    .indexLibros{
+        margin-top: 20px;
+    }
+
     .carousel{
           background-color: rgb(243, 11, 11);
           width: 100% !important;
@@ -478,10 +490,16 @@ iframe{
 
     .volver{
         margin-left: 150px;
-    }
-    
+    } 
 
-    
+    .figureBorde{
+        display: block;
+    }
+
+    .mediaImg{
+        width: 100%;
+        height: auto;
+    }
 }
 
 

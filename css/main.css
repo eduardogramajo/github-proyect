@@ -164,11 +164,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   max-width: 1500px;
-  min-height: auto;
-  padding: 50px 50px 100px 170px; }
-
-.libros img {
-  transform: rotate(-15deg); }
+  min-height: auto; }
 
 /*______FIGURAS______*/
 .titFig {
@@ -189,6 +185,11 @@ main {
 .figureBorde:hover {
   width: 350px;
   height: 500px; }
+
+.indexLibros {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30%; }
 
 .indexLibros {
   border: 1px solid black;
@@ -398,7 +399,9 @@ iframe {
   .espacioDos {
     padding-left: 20%; }
   .espacioTres {
-    padding-left: 20%; } }
+    padding-left: 20%; }
+  .indexLibros {
+    justify-content: flex-start; } }
 
 @media only screen and (max-width: 768px) {
   .imgLogo {
@@ -415,6 +418,10 @@ iframe {
     display: block; }
   .libros {
     padding-right: 160px; }
+  .libros {
+    flex-direction: column; }
+  .indexLibros {
+    margin-top: 20px; }
   .carousel {
     background-color: #f30b0b;
     width: 100% !important;
@@ -423,4 +430,9 @@ iframe {
     margin-top: 100px;
     margin-bottom: 100px; }
   .volver {
-    margin-left: 150px; } }
+    margin-left: 150px; }
+  .figureBorde {
+    display: block; }
+  .mediaImg {
+    width: 100%;
+    height: auto; } }
