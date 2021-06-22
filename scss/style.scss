@@ -71,16 +71,7 @@ a{
     padding-right: $valorUno + 250px;
 }
 
-.titPrincipal{
-   @include sombra;
-}
-.subTitPrincipal{
-    text-align: center;
-    font-size: 35px;
-    @include sombra;
-    font-family: 'Girassol', cursive;
-    margin-bottom: 50px;
-}
+
 
 main{
     background-image: url(../img/imgSitio/circ.png);
@@ -88,6 +79,25 @@ main{
     background-size:cover;
     background-position-x: 50%;
     background-position-y: 50%; 
+
+    .whatsapp{
+        position: -webkit-sticky;
+        position: sticky;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 60px;
+        top:$valorDos + $valorUno;
+    }
+    .titPrincipal{
+        @include sombra;
+     }
+     .subTitPrincipal{
+         text-align: center;
+         font-size: 35px;
+         @include sombra;
+         font-family: 'Girassol', cursive;
+         margin-bottom: 50px;
+     }
 }
 
 .botonComprar{
@@ -114,14 +124,7 @@ main{
     border-radius: 10px;
 }
 
-.whatsapp{
-    position: -webkit-sticky;
-    position: sticky;
-    display: flex;
-    flex-direction: row-reverse;
-    margin-right: 60px;
-    top:$valorDos + $valorUno;
-}
+
 
 
 .footer{
