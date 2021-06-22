@@ -1,0 +1,60 @@
+/*_______Modificaciones Bootstrap_______*/
+$colorNegro:black;
+$colorRojo:red;
+$colorBlanco: white;
+$percent:10%;
+.carousel{
+    background-color: rgb(243, 11, 11);
+    width: 50% !important;
+    margin: 0 auto;
+    border-radius: 45px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.carousel-item img{
+    width: $percent * 10!important;
+    height: auto  !important;
+    margin: 0 auto !important;
+}
+
+.nav{
+   font-size: 3rem;
+   text-shadow: 1px 1px 5px $colorNegro;
+   font-weight: bolder;
+   padding-left :$percent + 12%;
+   letter-spacing: $percent - 5%;
+   background-color: $colorNegro;
+}
+.nav{
+    li{
+        border: 1px solid $colorBlanco;
+    }
+}
+
+.nav-link{
+    color: $colorRojo;
+    text-shadow: 1px 1px 3px $colorBlanco;
+}
+
+.nav-item>a:hover{
+    background-color: $colorRojo;
+    text-shadow: 2px 2px 3px black;
+    color:$colorBlanco
+    
+    
+}
+
+.dropdown-menu{
+    font-size: 20px;
+    background-color: $colorNegro;
+}
+
+.dropdown-item:hover{
+    background-color: $colorRojo;
+    color: $colorBlanco;
+}
+.dropdown-item{
+    color: $colorRojo;
+}
+
+
