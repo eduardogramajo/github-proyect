@@ -413,9 +413,10 @@ iframe {
   .volver {
     margin-left: 150px; }
   .figureBorde {
-    display: block; }
+    display: block;
+    margin: 0 auto; }
   .mediaImg {
-    width: 100%;
+    width: 70%;
     height: auto; }
   .footerLogo .footerLogoDos {
     margin-left: 50%; }
