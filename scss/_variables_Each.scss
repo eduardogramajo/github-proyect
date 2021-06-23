@@ -1,0 +1,22 @@
+$valorUno:100px;
+$valorDos:200px;
+$valorTres:400px;
+$ancho:1500px;
+$font:50px;
+
+$listaColor: red, yellow, aqua;
+
+@each $color in $listaColor {
+   .preguntas__parr-#{$color} {
+      color: $color;
+     
+    }
+}
+
+$tamañoTit: 30px, 31px, 32px;
+
+@each $tam in $tamañoTit {
+    .preguntas__tit-#{$tam}{
+        font-size: $tam;
+    }
+}

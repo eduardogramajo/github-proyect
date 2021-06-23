@@ -44,6 +44,24 @@
 .dropdown-item {
   color: red; }
 
+.preguntas__parr-red {
+  color: red; }
+
+.preguntas__parr-yellow {
+  color: yellow; }
+
+.preguntas__parr-aqua {
+  color: aqua; }
+
+.preguntas__tit-30px {
+  font-size: 30px; }
+
+.preguntas__tit-31px {
+  font-size: 31px; }
+
+.preguntas__tit-32px {
+  font-size: 32px; }
+
 /*generales*/
 .fondo {
   background-image: url(../img/imgSitio/banner_1.png);
@@ -101,7 +119,7 @@ a {
 
 main {
   background-image: url(../img/imgSitio/circ.png);
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 50%; }
@@ -174,17 +192,16 @@ main {
   font-family: 'Girassol', cursive;
   font-size: 1.8rem;
   text-shadow: 2px 2px #558ABB; }
-
-.figureBorde {
-  border: 2px solid black;
-  box-shadow: 10px 5px 5px grey; }
-
-.figureBorde {
-  transition: all 2s; }
-
-.figureBorde:hover {
-  width: 350px;
-  height: 500px; }
+  .titFig .figureBorde {
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px grey; }
+  .titFig .figureBorde {
+    transition: all 2s; }
+  .titFig .figureBorde:hover {
+    width: 350px;
+    height: 500px; }
+  .titFig .precio {
+    color: #043838; }
 
 .indexLibros {
   margin-top: 50px;
@@ -261,10 +278,18 @@ main {
   margin: 0 auto;
   box-shadow: 2px 2px 2px 2px red; }
 
-.reseñaParr {
+.reseña__Parr {
   font-size: 20px;
   font-weight: bolder;
   text-align: center; }
+
+.preguntas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  background-color: black; }
 
 /*_______CONTACTO________*/
 .somos {

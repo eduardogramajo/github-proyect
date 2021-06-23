@@ -1,5 +1,5 @@
 @import "bootstrap";
-@import "variables";
+@import "variables_Each";
 @import "mixins";
 
 /*generales*/
@@ -75,7 +75,7 @@ a{
 
 main{
     background-image: url(../img/imgSitio/circ.png);
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-size:cover;
     background-position-x: 50%;
     background-position-y: 50%; 
@@ -157,20 +157,28 @@ main{
     font-family: 'Girassol', cursive;
     font-size: 1.8rem;
     text-shadow: 2px 2px #558ABB;
+
+    .figureBorde{
+        border: 2px solid $colorNegro;
+        box-shadow: 10px 5px 5px grey;
+    }
+    
+    .figureBorde{
+        transition: all 2s;
+    }
+    .figureBorde:hover{
+        width: $valorDos + 150px;
+        height: $valorTres/2 + 300px;
+    }
+
+    .precio{
+        color:rgb(4, 56, 56);
+        
+        
+    }
 }
 
-.figureBorde{
-    border: 2px solid $colorNegro;
-    box-shadow: 10px 5px 5px grey;
-}
 
-.figureBorde{
-    transition: all 2s;
-}
-.figureBorde:hover{
-    width: $valorDos + 150px;
-    height: $valorTres/2 + 300px;
-}
 
 .indexLibros{
     margin-top: 50px;
@@ -249,18 +257,25 @@ main{
     text-shadow: 2px 2px 2px $colorNegro;
 } 
 
+ 
 .reseña{
     display: block;
     margin: 0 auto;
     box-shadow: 2px 2px 2px 2px $colorRojo;
-    
 }
-.reseñaParr{
+.reseña__Parr{
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
 }
-
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+}
 
 
 /*_______CONTACTO________*/
