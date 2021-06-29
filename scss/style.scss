@@ -67,12 +67,6 @@ a{
     text-decoration: none; 
 }
 
-.logoPrincipal{
-    padding-right: $valorUno + 250px;
-}
-
-
-
 main{
     background-image: url(../img/imgSitio/circ.png);
     /*background-repeat: no-repeat;*/
@@ -159,18 +153,20 @@ main{
     .figureBorde{
         transition: all 2s;
     }
+    
     .figureBorde:hover{
-        width: $valorDos + 150px;
-        height: $valorTres/2 + 300px;
+        z-index: 10;
+        -webkit-transform:scale(2.0);
+        -moz-transform:scale(2.0);
+        -ms-transform:scale(2.0);
+        -o-transform:scale(2.0);
+        transform:scale(1.5);
     }
 
     .precio{
-        color:rgb(4, 56, 56);
-        
-        
+        color:rgb(4, 56, 56);        
     }
 }
-
 
 
 .indexLibros{
@@ -185,10 +181,24 @@ main{
 .indexLibros{
    transition: all 2s;
 }
-.indexLibros:hover{
+/*.indexLibros:hover{
     width: 250px;
     height: $valorTres;
+}*/
+.indexLibros:hover{
+    z-index: 10;
+             
+                    -webkit-transform:scale(2.0);
+            
+                    -moz-transform:scale(2.0);
+           
+                    -ms-transform:scale(2.0);
+         
+                    -o-transform:scale(2.0);
+           
+                    transform:scale(1.5);
 }
+
 
 
 .volver{

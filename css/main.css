@@ -114,9 +114,6 @@ li {
 a {
   text-decoration: none; }
 
-.logoPrincipal {
-  padding-right: 350px; }
-
 main {
   background-image: url(../img/imgSitio/circ.png);
   /*background-repeat: no-repeat;*/
@@ -189,8 +186,12 @@ main {
   .titFig .figureBorde {
     transition: all 2s; }
   .titFig .figureBorde:hover {
-    width: 350px;
-    height: 500px; }
+    z-index: 10;
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(1.5); }
   .titFig .precio {
     color: #043838; }
 
@@ -206,9 +207,17 @@ main {
 .indexLibros {
   transition: all 2s; }
 
+/*.indexLibros:hover{
+    width: 250px;
+    height: $valorTres;
+}*/
 .indexLibros:hover {
-  width: 250px;
-  height: 400px; }
+  z-index: 10;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(1.5); }
 
 .volver {
   font-family: 'Girassol', cursive;
