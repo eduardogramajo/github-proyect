@@ -133,13 +133,6 @@ main{
     
 }
 
-.figuras{
-    @include flexDos;
-    max-width: 1100px;
-    min-height: 1500px;
-    padding: 0px 50px 100px 400px;
-}
-
 .libros{
     @include flexDos;
     max-width: 1500px;

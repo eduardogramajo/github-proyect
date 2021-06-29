@@ -167,15 +167,6 @@ main {
   background-image: linear-gradient(to right, #f50707, #ebcccc);
   border-radius: 10px; }
 
-.figuras {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 1100px;
-  min-height: 1500px;
-  padding: 0px 50px 100px 400px; }
-
 .libros {
   display: flex;
   flex-direction: row;
