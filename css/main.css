@@ -62,6 +62,21 @@
 .preguntas__tit-32px {
   font-size: 32px; }
 
+.contenedorGrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
+
+.header {
+  grid-area: header; }
+
+.main {
+  grid-area: main; }
+
+.gridFooter {
+  grid-area: footer; }
+
 /*generales*/
 .fondo {
   background-image: url(../img/imgSitio/banner_1.png);
