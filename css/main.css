@@ -394,11 +394,51 @@ iframe {
   .footer .footerEnlaces {
     list-style: none; }
   .footer .footerRedes {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    padding-left: 50px; }
+    align-content: center; }
+
+@media screen and (max-width: 360px) {
+  .imgLogo {
+    display: block;
+    margin: 0 auto;
+    width: 350px; }
+  h1 {
+    font-size: 2rem; }
+  h5 {
+    font-size: 1.5rem; }
+  .footerLogo .footerLogoDos {
+    margin-left: 20%; }
+  .footerLogo .h4 {
+    margin-left: 5%; }
+  .footerLogo .footerRedes {
+    margin-left: 20%; }
+  .volver {
+    width: 50%;
+    height: 30%;
+    font-size: 1.2rem; }
+  .espacioCuatro {
+    width: 25%;
+    margin-left: 25%; }
+  iframe {
+    width: 80%;
+    margin-left: 20px; }
+  .ubicacionParr {
+    width: 250px;
+    font-size: 2rem;
+    padding-left: 40px; }
+  .espacioUno {
+    padding-left: 25%; }
+  .espacioDos {
+    padding-left: 25%; }
+  .espacioTres {
+    padding-left: 25%; }
+  .espacioCuatro {
+    padding-left: 20%; }
+  .indexLibros {
+    justify-content: flex-start; }
+  .libros {
+    align-items: flex-start; } }
 
 @media only screen and (max-width: 768px) {
   .imgLogo {
@@ -433,62 +473,5 @@ iframe {
   .mediaImg {
     width: 70%;
     height: auto; }
-  .footerLogo .footerLogoDos {
-    margin-left: 50%; }
-  .footerLogo .h4 {
-    margin-left: 25%; }
   .footerRedes li img {
     width: 75px; } }
-
-@media screen and (max-width: 360px) {
-  .imgLogo {
-    display: block;
-    margin: 0 auto;
-    width: 350px; }
-  h1 {
-    font-size: 2rem; }
-  h5 {
-    font-size: 1.5rem; }
-  .footer {
-    flex-direction: column;
-    align-items: center;
-    align-content: center; }
-    .footer .footerLogo .h4 {
-      text-align: center;
-      font-size: 1rem;
-      margin-left: 5%; }
-    .footer .footerLogo .footerLogoDos {
-      margin-left: 25%;
-      display: block; }
-    .footer .footerTit {
-      text-align: center;
-      font-size: 1rem; }
-    .footer .footerSecciones {
-      display: block;
-      margin: 0 auto; }
-    .footer .footerEnlaces li {
-      margin-left: 25%; }
-  .volver {
-    width: 50%;
-    height: 30%;
-    font-size: 1.2rem; }
-  .espacioCuatro {
-    width: 25%;
-    margin-left: 25%; }
-  iframe {
-    width: 80%;
-    margin-left: 20px; }
-  .ubicacionParr {
-    width: 250px;
-    font-size: 2rem;
-    padding-left: 40px; }
-  .espacioUno {
-    padding-left: 20%; }
-  .espacioDos {
-    padding-left: 20%; }
-  .espacioTres {
-    padding-left: 20%; }
-  .indexLibros {
-    justify-content: flex-start; }
-  .libros {
-    align-items: flex-start; } }

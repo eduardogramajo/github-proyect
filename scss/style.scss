@@ -385,11 +385,82 @@ iframe{
     }
     
     .footerRedes{
-        display: flex;
         flex-direction: column;
         align-items: center;
         align-content: center;
-        padding-left:50px ;
+    }
+
+}
+
+@media screen and(max-width:360px) {
+    .imgLogo{
+        display: block;
+        margin: 0 auto;
+        width: 350px;
+  }
+    h1{
+        font-size: 2rem;
+    }
+    h5{
+        font-size: 1.5rem;
+    }
+
+    .footerLogo{
+        .footerLogoDos{
+            margin-left: 20%;
+        }
+        .h4{
+            margin-left: 5%;
+        }       
+        .footerRedes{
+           margin-left: 20%;
+        }
+    }
+
+    .volver{
+        width: 50%;
+        height: 30%;
+        font-size: 1.2rem;
+    }
+
+    .espacioCuatro{
+        width: 25%;
+        margin-left: 25%;
+    }
+
+    iframe{
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .ubicacionParr{
+        width: 250px;
+        font-size: 2rem;
+        padding-left: 40px;
+    }
+
+    .espacioUno{
+        padding-left: 25%;
+    }
+
+    .espacioDos{
+        padding-left: 25%;
+    }
+
+    .espacioTres{
+        padding-left: 25%;
+    }
+
+    .espacioCuatro{
+        padding-left: 20%;
+    }
+
+    .indexLibros{
+        justify-content: flex-start;
+    }
+
+    .libros{
+        align-items: flex-start;
     }
 
 }
@@ -445,14 +516,7 @@ iframe{
         width: 70%;
         height: auto;
     }
-    .footerLogo{
-        .footerLogoDos{
-            margin-left: 50%;
-        }
-        .h4{
-            margin-left: 25%;
-        }
-    }
+    
     .footerRedes{
         li{
             img{
@@ -463,92 +527,7 @@ iframe{
 
 }
 
-@media screen and(max-width:360px) {
-    .imgLogo{
-        display: block;
-        margin: 0 auto;
-        width: 350px;
-  }
-    h1{
-        font-size: 2rem;
-    }
-    h5{
-        font-size: 1.5rem;
-    }
 
-    .footer{
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        .footerLogo{
-            .h4{
-                text-align: center;
-                font-size: 1rem;
-                margin-left: 5%;
-            }    
-            .footerLogoDos{
-                margin-left: 25%;
-                display: block;
-            }
-        }
-        .footerTit{
-            text-align: center;
-            font-size: 1rem;
-        }
-        .footerSecciones{
-            display: block;
-            margin: 0 auto;
-        }
-        .footerEnlaces{
-            li{
-                margin-left: 25%;
-            }
-        }
-    }   
-
-    .volver{
-        width: 50%;
-        height: 30%;
-        font-size: 1.2rem;
-    }
-
-    .espacioCuatro{
-        width: 25%;
-        margin-left: 25%;
-    }
-
-    iframe{
-        width: 80%;
-        margin-left: 20px;
-    }
-
-    .ubicacionParr{
-        width: 250px;
-        font-size: 2rem;
-        padding-left: 40px;
-    }
-
-    .espacioUno{
-        padding-left: 20%;
-    }
-
-    .espacioDos{
-        padding-left: 20%;
-    }
-
-    .espacioTres{
-        padding-left: 20%;
-    }
-
-    .indexLibros{
-        justify-content: flex-start;
-    }
-
-    .libros{
-        align-items: flex-start;
-    }
-
-}
 
 
 
