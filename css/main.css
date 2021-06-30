@@ -310,7 +310,7 @@ main {
 .somos {
   font-size: 50px; }
 
-#imgSet {
+.imgSet {
   background-image: url(../img/imgSitio/edAl.png);
   margin: 0px 0px 100px 0px;
   background-repeat: no-repeat;
@@ -417,9 +417,6 @@ iframe {
     width: 50%;
     height: 30%;
     font-size: 1.2rem; }
-  .espacioCuatro {
-    width: 25%;
-    margin-left: 25%; }
   iframe {
     width: 80%;
     margin-left: 20px; }
@@ -427,14 +424,14 @@ iframe {
     width: 250px;
     font-size: 2rem;
     padding-left: 40px; }
+  .imgSet {
+    background-image: none; }
   .espacioUno {
     padding-left: 25%; }
   .espacioDos {
     padding-left: 25%; }
   .espacioTres {
     padding-left: 25%; }
-  .espacioCuatro {
-    padding-left: 20%; }
   .indexLibros {
     justify-content: flex-start; }
   .libros {
