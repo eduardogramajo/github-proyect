@@ -400,6 +400,38 @@ iframe{
 }
 
 /*_________MEDIA QUERIES____________*/
+@media screen and(max-width:991px) {
+    .mediaImg{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 769px) {
+    .mediaImg{
+        width: 70%;
+        height: auto;
+    }
+    .marcas{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        margin-left: 20%;
+    }
+    .imgSet{
+        .imgSet{
+            background-image: none;
+        }
+        .espacioUno{
+           padding-left: 35%;
+        }
+        .espacioTres{
+            padding-left: 35%;
+        }
+    }    
+}
+
 
 @media only screen and (max-width: 768px) {
     .imgLogo{
@@ -487,6 +519,12 @@ iframe{
          }
     }
     
+    .marcas{
+        
+        margin-left: 15%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
 }
 
@@ -517,7 +555,7 @@ iframe{
     }
 
     .mediaImg{
-        width: 70%;
+        width: 50%;
     }
 
     .volver{
