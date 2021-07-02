@@ -4,6 +4,11 @@
 @import "grid";
 
 /*generales*/
+.burger{
+    visibility: hidden;
+    display: none;
+}
+
 .fondo{
     background-image: url(../img/imgSitio/banner_1.png);
     background-repeat: no-repeat;
@@ -336,10 +341,10 @@ main{
     border-radius: 15px;
     box-shadow: 0 0 .2rem #fff,
     0 0 .2rem #fff,
-    0 0 2rem #bc13fe,
-    0 0 0.8rem #bc13fe,
-    0 0 2.8rem #bc13fe,
-    inset 0 0 1.3rem #bc13fe;
+    0 0 2rem #f50404,
+    0 0 0.8rem #f50404,
+    0 0 2.8rem #f50404,
+    inset 0 0 1.3rem #f50404;
     margin: 100px 0px 300px 0px;
     background-color: #e9f2f5;
     font-family: 'Girassol', cursive;
@@ -402,6 +407,15 @@ iframe{
 
 /*_________MEDIA QUERIES____________*/
 @media screen and (max-width:1200px) {
+    .burger{
+        visibility: visible;
+        display: block;
+    }
+
+    .menuNormal{
+        visibility: hidden;
+        display: none;
+    }
     .imgSet{
         background-image: none;
     }
