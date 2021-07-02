@@ -338,7 +338,7 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: space-between;
-  padding-left: 42%; }
+  padding-left: 47%; }
 
 .espacioTres {
   display: flex;
@@ -405,10 +405,17 @@ iframe {
     align-content: center; }
 
 /*_________MEDIA QUERIES____________*/
+@media screen and (max-width: 1200px) {
+  .imgSet {
+    background-image: none; } }
+
 @media screen and (max-width: 991px) {
   .mediaImg {
     width: 100%;
-    height: auto; } }
+    height: auto; }
+  .indexLibros {
+    display: block;
+    margin: 0 auto; } }
 
 @media screen and (max-width: 769px) {
   .mediaImg {
@@ -419,12 +426,12 @@ iframe {
     flex-direction: column;
     align-content: space-between;
     margin-left: 20%; }
-  .imgSet .imgSet {
-    background-image: none; }
   .imgSet .espacioUno {
     padding-left: 35%; }
   .imgSet .espacioTres {
-    padding-left: 35%; } }
+    padding-left: 35%; }
+  .imgSet {
+    background-image: none; } }
 
 @media only screen and (max-width: 768px) {
   .imgLogo {
@@ -459,14 +466,16 @@ iframe {
   .mediaImg {
     width: 80%;
     height: auto; }
-  .imgSet {
-    background-image: none; }
   textarea {
     border: 2px solid black; }
   .footerRedes li img {
     width: 75px; } }
 
 @media screen and (max-width: 584px) {
+  .imgLogo {
+    width: 400px; }
+  .indexLibros {
+    margin-left: 5%; }
   .imgSet .espacioUno {
     padding-left: 15%;
     margin-left: 15%; }
@@ -483,7 +492,6 @@ iframe {
 @media screen and (max-width: 360px) {
   .imgLogo {
     display: block;
-    margin: 0 auto;
     width: 350px; }
   h1 {
     font-size: 2rem; }
@@ -508,8 +516,6 @@ iframe {
     width: 250px;
     font-size: 2rem;
     padding-left: 40px; }
-  .imgSet {
-    background-image: none; }
   .espacioUno {
     padding-left: 25%; }
   .espacioDos {
