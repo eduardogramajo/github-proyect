@@ -77,11 +77,6 @@
 .gridFooter {
   grid-area: footer; }
 
-/*generales*/
-.burger {
-  visibility: hidden;
-  display: none; }
-
 .fondo {
   background-image: url(../img/imgSitio/banner_1.png);
   background-repeat: no-repeat;
@@ -410,12 +405,6 @@ iframe {
 
 /*_________MEDIA QUERIES____________*/
 @media screen and (max-width: 1200px) {
-  .burger {
-    visibility: visible;
-    display: block; }
-  .menuNormal {
-    visibility: hidden;
-    display: none; }
   .imgSet {
     background-image: none; } }
 
@@ -535,4 +524,4 @@ iframe {
   .indexLibros {
     justify-content: flex-start; }
   .libros {
-    align-items: flex-start; } }
+    align-items: center; } }
