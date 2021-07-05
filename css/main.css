@@ -405,6 +405,10 @@ iframe {
 
 /*_________MEDIA QUERIES____________*/
 @media screen and (max-width: 1200px) {
+  .figureBorde {
+    pointer-events: none; }
+  .indexLibros:hover {
+    pointer-events: none; }
   .imgSet {
     background-image: none; } }
 
