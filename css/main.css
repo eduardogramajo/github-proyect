@@ -407,7 +407,7 @@ iframe {
 @media screen and (max-width: 1200px) {
   .figureBorde {
     pointer-events: none; }
-  .indexLibros:hover {
+  .indexLibros {
     pointer-events: none; }
   .imgSet {
     background-image: none; } }
