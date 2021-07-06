@@ -62,20 +62,9 @@
 .preguntas__tit-32px {
   font-size: 32px; }
 
-.contenedorGrid {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
-
-.header {
-  grid-area: header; }
-
-.main {
-  grid-area: main; }
-
-.gridFooter {
-  grid-area: footer; }
+.imgLogo {
+  display: block;
+  margin: 0 auto; }
 
 .fondo {
   background-image: url(../img/imgSitio/banner_1.png);
@@ -370,14 +359,10 @@ main {
 
 .ubicacion {
   display: block;
-  margin: 0 auto;
-  width: 400px; }
+  margin: 0 auto; }
 
 iframe {
   box-shadow: 2px 2px 2px 4px black; }
-
-.ubicacionParr {
-  color: red; }
 
 .footer {
   display: flex;
@@ -439,8 +424,7 @@ iframe {
 @media only screen and (max-width: 768px) {
   .imgLogo {
     display: block;
-    width: 350px;
-    padding-right: 100px; }
+    width: 350px; }
   h1 {
     font-size: 3rem; }
   h2 {
@@ -492,20 +476,20 @@ iframe {
     padding-top: 10px;
     padding-bottom: 10px; } }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
+  .nav {
+    font-size: 2rem;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-right: 20%; }
   .imgLogo {
-    display: block;
-    width: 350px; }
+    width: 300px; }
   h1 {
     font-size: 2rem; }
   h5 {
     font-size: 1.5rem; }
-  .footerLogo .footerLogoDos {
-    margin-left: 20%; }
-  .footerLogo .h4 {
-    margin-left: 5%; }
-  .footerLogo .footerRedes {
-    margin-left: 20%; }
   .mediaImg {
     width: 50%; }
   .volver {
@@ -513,19 +497,25 @@ iframe {
     height: 30%;
     font-size: 1.2rem; }
   iframe {
-    width: 80%;
-    margin-left: 20px; }
+    width: 80%; }
   .ubicacionParr {
     width: 250px;
     font-size: 2rem;
     padding-left: 40px; }
-  .espacioUno {
-    padding-left: 25%; }
-  .espacioDos {
-    padding-left: 40%; }
-  .espacioTres {
-    padding-left: 25%; }
+  textarea {
+    width: 300px; }
   .indexLibros {
     justify-content: flex-start; }
   .libros {
-    align-items: center; } }
+    align-items: center; }
+  .footer {
+    margin: auto;
+    width: auto; }
+    .footer .footerRedes .footerTit {
+      font-size: 1.125rem; }
+    .footer .footerLogo {
+      display: none; }
+      .footer .footerLogo .footerLogoDos {
+        display: none; }
+    .footer .footerSecciones {
+      display: none; } }

@@ -1,7 +1,11 @@
 @import "bootstrap";
 @import "variables_Each";
 @import "mixins";
-@import "grid";
+
+.imgLogo{
+    display: block;
+    margin: 0 auto;
+}
 
 .fondo{
     background-image: url(../img/imgSitio/banner_1.png);
@@ -345,16 +349,12 @@ main{
 .ubicacion{
     display: block;
     margin: 0 auto;
-    width:$valorDos +  200px;
 }
 
 iframe{
     box-shadow: 2px 2px 2px 4px $colorNegro;
 }
 
-.ubicacionParr{
-    color: $colorRojo;
-}
 
 .footer{
     display: flex;
@@ -396,6 +396,7 @@ iframe{
 
 /*_________MEDIA QUERIES____________*/
 @media screen and (max-width:1200px) {
+    
     .figureBorde{
         pointer-events: none;
     }
@@ -450,7 +451,7 @@ iframe{
     .imgLogo{
           display: block;
           width: 350px;
-          padding-right: 100px;
+         
     }
   h1{
           font-size: 3rem;
@@ -542,31 +543,29 @@ iframe{
 }
 
 
-@media screen and(max-width:360px) {
-    
+@media screen and(max-width:375px) {
+    .nav{
+        font-size: 2rem;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-right: 20%;
+    }
+
     .imgLogo{
-        display: block;
-        width: 350px;
-  }
+        width: 300px;
+    } 
+
     h1{
         font-size: 2rem;
     }
+    
     h5{
         font-size: 1.5rem;
     }
 
-    .footerLogo{
-        .footerLogoDos{
-            margin-left: 20%;
-        }
-        .h4{
-            margin-left: 5%;
-        }       
-        .footerRedes{
-           margin-left: 20%;
-        }
-    }
-
+    
     .mediaImg{
         width: 50%;
     }
@@ -579,7 +578,7 @@ iframe{
 
     iframe{
         width: 80%;
-        margin-left: 20px;
+        
     }
 
     .ubicacionParr{
@@ -588,17 +587,10 @@ iframe{
         padding-left: 40px;
     }
 
-    .espacioUno{
-        padding-left: 25%;
-    }
 
-    .espacioDos{
-        padding-left: 40%;
+    textarea{
+        width: 300px;
     }
-
-    .espacioTres{
-        padding-left: 25%;
-    }  
 
     .indexLibros{
         justify-content: flex-start;
@@ -606,6 +598,30 @@ iframe{
 
     .libros{
         align-items: center;
+    }
+
+    .footer{
+        margin: auto;
+        width: auto;
+
+        .footerRedes{
+            .footerTit{
+                font-size: 1.125rem;
+            }
+        }
+        
+        .footerLogo{
+            display:none;
+
+            .footerLogoDos{
+                display: none;
+            }            
+        }
+
+        .footerSecciones{
+            display:none;
+        }
+            
     }
 
 }
