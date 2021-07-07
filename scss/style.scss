@@ -504,13 +504,14 @@ iframe{
     .imgLogo{
         width: 300px;
     } 
+    main{
+        h1{
+            font-size: 2rem;
+        }
+        .subTitPrincipal{
+            font-size: 1rem;
+        }
 
-    h1{
-        font-size: 2rem;
-    }
-    
-    .subTitPrincipal{
-        font-size: 0.5rem;
     }
 
     .mediaImg{
