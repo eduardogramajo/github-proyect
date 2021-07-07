@@ -9,7 +9,6 @@ $listaColor: red, yellow, aqua;
 @each $color in $listaColor {
    .preguntas__parr-#{$color} {
       color: $color;
-     
     }
 }
 

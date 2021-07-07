@@ -27,6 +27,8 @@ $percent:10%;
 }
 .nav{
     li{
+        font-weight: bolder;
+        list-style-position: outside;
         border: 1px solid $colorBlanco;
     }
 }
@@ -40,8 +42,6 @@ $percent:10%;
     background-color: $colorRojo;
     text-shadow: 2px 2px 3px black;
     color:$colorBlanco
-    
-    
 }
 
 .dropdown-menu{

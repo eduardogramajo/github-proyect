@@ -22,6 +22,8 @@
   background-color: black; }
 
 .nav li {
+  font-weight: bolder;
+  list-style-position: outside;
   border: 1px solid white; }
 
 .nav-link {
@@ -73,12 +75,9 @@
 
 h1 {
   font-size: 5.5rem;
-  font-family: 'Girassol', cursive;
   text-align: center;
   letter-spacing: 8px;
-  padding-top: 50px; }
-
-h1 {
+  padding-top: 50px;
   animation-duration: 5s;
   animation-name: tith1; }
 
@@ -88,10 +87,12 @@ h1 {
   100% {
     opacity: 1; } }
 
-h2 {
-  color: #0a25f5;
+h1, h2, h3, li, .subTitPrincipal, .titFig, .formProp, .volver, .quienesSomos, .botonComprar {
   font-family: 'Girassol', cursive;
-  font-weight: bolder;
+  font-weight: bolder; }
+
+h2, h3 {
+  color: #0a25f5;
   font-size: 3rem;
   text-align: center;
   text-shadow: 2px 2px 2px black; }
@@ -100,26 +101,13 @@ h3 {
   color: #e1f1e9;
   font-size: 20px;
   word-spacing: 12px;
-  letter-spacing: 3px;
-  font-family: 'Girassol', cursive;
-  text-shadow: 2px 2px 2px black; }
-
-h5 {
-  font-size: 30px;
-  color: white;
-  text-shadow: 2px 2px 2px black; }
-
-li {
-  font-family: 'Girassol', cursive;
-  font-weight: bolder;
-  list-style-position: outside; }
+  letter-spacing: 3px; }
 
 a {
   text-decoration: none; }
 
 main {
   background-image: url(../img/imgSitio/circ.png);
-  /*background-repeat: no-repeat;*/
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 50%; }
@@ -138,8 +126,33 @@ main {
     font-size: 35px;
     color: #fff;
     text-shadow: 0 0 7px black, 0 0 8px black, 0 0 21px black, 0 0 42px red, 0 0 82px red, 0 0 92px red, 0 0 102px red, 0 0 151px red;
-    font-family: 'Girassol', cursive;
     margin-bottom: 50px; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: linear-gradient(to right, #f50707, #ebcccc);
+  border-radius: 10px; }
+  .footer .footerLogo {
+    width: 400px;
+    margin-left: 70px; }
+  .footer .footerLogoDos {
+    margin-top: 20px;
+    margin-left: 60px; }
+  .footer .footerSecciones {
+    text-align: center;
+    margin-right: 100px; }
+  .footer .footerTit {
+    font-size: 2.2rem;
+    text-align: center; }
+  .footer .footerEnlaces {
+    list-style: none; }
+  .footer .footerRedes {
+    flex-direction: column;
+    align-items: center;
+    align-content: center; }
 
 .botonComprar {
   padding: 0.4rem;
@@ -149,7 +162,6 @@ main {
   background-color: red;
   border-radius: 0.2rem;
   cursor: pointer;
-  font-weight: bolder;
   font-size: 1.6rem;
   padding: 0px 15px 0px 15px;
   margin-bottom: 15px;
@@ -163,10 +175,6 @@ main {
   padding: 0px 15px 0px 15px;
   border-radius: 10px; }
 
-.footer {
-  background-image: linear-gradient(to right, #f50707, #ebcccc);
-  border-radius: 10px; }
-
 .libros {
   display: flex;
   flex-direction: row;
@@ -175,12 +183,10 @@ main {
   max-width: 1500px;
   min-height: auto; }
 
-/*______FIGURAS______*/
+/*______FIGURAS PROPIEDADES______*/
 .titFig {
   color: #180202;
   text-align: center;
-  font-weight: bolder;
-  font-family: 'Girassol', cursive;
   font-size: 1.8rem;
   text-shadow: 2px 2px #558ABB; }
   .titFig .figureBorde {
@@ -208,6 +214,7 @@ main {
   .titFig .precio {
     color: #043838; }
 
+/*______PROPIEDADES LIBROS INDEX______*/
 .indexLibros {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -229,7 +236,6 @@ main {
   transform: scale(1.5); }
 
 .volver {
-  font-family: 'Girassol', cursive;
   color: white;
   font-size: 25px;
   background-color: teal;
@@ -266,7 +272,6 @@ main {
   text-transform: inherit;
   text-align: left;
   font-size: 1.5rem;
-  font-family: 'Girassol', cursive;
   color: #050c87;
   word-spacing: 3px; }
 
@@ -301,9 +306,6 @@ main {
   background-color: black; }
 
 /*_______CONTACTO________*/
-.somos {
-  font-size: 50px; }
-
 .imgSet {
   background-image: url(../img/imgSitio/edAl.png);
   margin: 0px 0px 100px 0px;
@@ -353,8 +355,6 @@ main {
   box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #f50404, 0 0 0.8rem #f50404, 0 0 2.8rem #f50404, inset 0 0 1.3rem #f50404;
   margin: 100px 0px 300px 0px;
   background-color: #e9f2f5;
-  font-family: 'Girassol', cursive;
-  font-weight: bolder;
   text-shadow: 2px 2px 2px #f19d9d; }
 
 .ubicacion {
@@ -363,30 +363,6 @@ main {
 
 iframe {
   box-shadow: 2px 2px 2px 4px black; }
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center; }
-  .footer .footerLogo {
-    width: 400px;
-    margin-left: 70px; }
-  .footer .footerLogoDos {
-    margin-top: 20px;
-    margin-left: 60px; }
-  .footer .footerSecciones {
-    text-align: center;
-    margin-right: 100px; }
-  .footer .footerTit {
-    font-size: 2.2rem;
-    text-align: center; }
-  .footer .footerEnlaces {
-    list-style: none; }
-  .footer .footerRedes {
-    flex-direction: column;
-    align-items: center;
-    align-content: center; }
 
 /*_________MEDIA QUERIES____________*/
 @media screen and (max-width: 1200px) {
@@ -429,7 +405,7 @@ iframe {
     font-size: 3rem; }
   h2 {
     font-size: 1.5rem; }
-  h5 {
+  .subTitPrincipal {
     font-size: 2rem; }
   .titFig {
     display: block; }
@@ -466,8 +442,6 @@ iframe {
   .imgSet .espacioUno {
     padding-left: 15%;
     margin-left: 15%; }
-  .imgSet .espacioDos {
-    margin-left: 5%; }
   .imgSet .espacioTres {
     margin-left: 15%;
     padding-left: 15%; }
@@ -488,8 +462,8 @@ iframe {
     width: 300px; }
   h1 {
     font-size: 2rem; }
-  h5 {
-    font-size: 1.5rem; }
+  .subTitPrincipal {
+    font-size: 0.5rem; }
   .mediaImg {
     width: 50%; }
   .volver {
@@ -508,6 +482,12 @@ iframe {
     justify-content: flex-start; }
   .libros {
     align-items: center; }
+  .imgSet .espacioUno {
+    padding-left: 10%;
+    margin-left: 10%; }
+  .imgSet .espacioTres {
+    margin-left: 10%;
+    padding-left: 10%; }
   .footer {
     margin: auto;
     width: auto; }
